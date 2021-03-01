@@ -17,6 +17,14 @@ app.get('/', (req, res) => res.render('home'))
 
 app.get('/about', (req, res) => res.render('about'))
 
+app.get('/round1', (req, res) => res.render('round1'))
+
+app.get('/round2', (req, res) => res.render('round2'))
+
+app.get('/round3', (req, res) => res.render('round3'))
+
+app.get('/round4', (req, res) => res.render('round4'))
+
 
 app.listen(port, () => console.log(
   `Express started on http://localhost:${port}; ` +
